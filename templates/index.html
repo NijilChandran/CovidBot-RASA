@@ -1,13 +1,24 @@
 <html>
   <head>
-    <title>CHATBOT</title>
+    <title>COVID-India Tracker Bot</title>
   </head>
   <body>
-    <h1>CHATBOT</h1>
+    <h1>COVID TRACKER BOT</h1>   
+    <div>
+      <h3>What can this bot do?</h3>
+    <ol>
+      <li>You can chit chat with the bot.</li>
+      <li>Give an Indian state name as input to know the latest COVID-19 statistics.</li>
+    </ol>
+    </div>  
     <form>
       <label for="text">You:</label><br>
       <input type="text" id="text" name="text"><br>
       {{val}}
     </form>
   </body>
+  <footer>
+    <p>Data sourced from: </p>
+    <p><a href="https://api.covid19india.org/data.json">https://api.covid19india.org/data.json</a></p>
+  </footer>
 </html> 
