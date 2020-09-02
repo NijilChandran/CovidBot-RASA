@@ -7,12 +7,19 @@ RASA based covid bot on flask
   - Activate the virtual environment
   - All the commands to be run in the virtual environment
 
+    python3 -m venv rasa_env
+    rasa_env\Scripts\activate.bat #On Windows
+    source rasa-env/bin/activate #On *nix based
+
 ## Rasa set up 
  
 ### Install rasa
 
-  - pip install rasa
+  - Ensure you are on the Python virtual environment
+  - Install rasa *pip install rasa*
   - Alternatively, execute the requirements.txt from the repo
+
+    pip install -r requirements.txt
 
 ### Initiate rasa
 
@@ -20,7 +27,7 @@ RASA based covid bot on flask
    - Alternatively, create an empty directory where you want to the project to live
    - Cd  into your project directory
    - Command to initiate rasa :  *rasa init*
-   - This will create all the basic files
+   - This will create all the rasa related files with basic content
 
 ### Add Covid specific intents and entities to data/nlu.md
 
@@ -46,6 +53,11 @@ RASA based covid bot on flask
    - Actual logic of the tracker happens here.
    - Tracker has the inputs to the custom function
    - Dispatcher gives back the output
+
+### Test and interact with your bot
+ 
+   - On a new terminal execute command *rasa shell*
+   - Interact and test your bot on command line.
 
 ## Flask set up
 
