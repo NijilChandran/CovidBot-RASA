@@ -6,10 +6,10 @@ RASA based covid bot on flask
   - Create a python virtual environment
   - Activate the virtual environment
   - All the commands to be run in the virtual environment
-
-    python3 -m venv rasa_env
-    rasa_env\Scripts\activate.bat #On Windows
-    source rasa-env/bin/activate #On *nix based
+   
+    *python3 -m venv rasa_env*    
+    *rasa_env\Scripts\activate.bat #On Windows*   
+    *source rasa-env/bin/activate #On nix based* 
 
 ## Rasa set up 
  
@@ -19,7 +19,7 @@ RASA based covid bot on flask
   - Install rasa *pip install rasa*
   - Alternatively, execute the requirements.txt from the repo
 
-    pip install -r requirements.txt
+    *pip install -r requirements.txt*
 
 ### Initiate rasa
 
